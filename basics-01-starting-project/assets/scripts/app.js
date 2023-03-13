@@ -2,18 +2,21 @@ const defaultResult = 0;
 
 let currentResult = defaultResult;
 
-function add (num1, num2) {
+function add(num1, num2) {
     const result = num1 + num2;
-    alert('The result is' + result)
+    return result;
+    //alert('The results are' + result);
 }
 
-add();
+//you can store the function output in a variable or constant
+//const additionResult = add( 5, 8);
+currentResult = add(8, 2);
 
-
-currentResult = currentResult + 10 *3 / 2 - 1;
+//currentResult = currentResult + 10 *3 / 2 - 1;
 
 //let calculationDescription =`( + ${defaultResult} + 10) * 3/2 - 1`;
 
 let calculationDescription ='(' + defaultResult + ' + 10) * 3/2 -1 ';
 
 outputResult(currentResult, calculationDescription);
+
