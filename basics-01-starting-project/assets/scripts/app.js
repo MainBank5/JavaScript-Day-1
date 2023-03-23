@@ -20,3 +20,9 @@ let calculationDescription ='(' + defaultResult + ' + 10) * 3/2 -1 ';
 
 outputResult(currentResult, calculationDescription);
 
+//function sub(numb, num3) {
+   // const answer = numb - num3;
+   // return answer;
+//}
+
+//sub(9, 7);
